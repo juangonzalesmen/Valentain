@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 
-body {
-  overflow-y: auto;
-}
 
 #card {
   height: 500px;
@@ -21,7 +18,7 @@ body {
     width: 90%; /* Reducir el ancho para dispositivos móviles */
     height: auto; /* Permitir que la altura se ajuste automáticamente */
     margin: 2em auto; /* Ajustar el margen */
-    position: relative; /* Cambiar la posición a estática para que no sea fija */
+    position: static; /* Cambiar la posición a estática para que no sea fija */
     visibility: none; /* Hacer que el elemento sea visible */
     top: 50px;
   }
@@ -60,7 +57,7 @@ body {
 
 .side {
   background: #eee;
-  height: 780px;
+  height: 800px;
   width: 400px;
   padding: 10px;
 }
